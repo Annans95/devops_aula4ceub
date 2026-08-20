@@ -4,8 +4,8 @@
   "description": "Projeto base para aula prática de CI e Testes Automatizados",
   "main": "src/calculadora.js",
   "scripts": {
-    "lint": "eslint src/",
-    "test": "jest"
+    "lint": "node ./node_modules/eslint/bin/eslint.js src/",
+    "test": "node ./node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
